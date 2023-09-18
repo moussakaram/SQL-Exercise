@@ -19,6 +19,25 @@ WHERE Name = 'Layal';
 
 DELETE FROM students
 WHERE Name = 'Layal';
-##############################################
+################## Joins #########
+problem 14: SELECT employees.name, employees.Company, 
+companies.Date
+FROM  employees
+Inner join companies ON 
+employees.Company=companies.name;
+
+
+problem 15:SELECT employees.name, employees.Company, 
+companies.Date
+FROM  employees
+Inner join companies ON 
+employees.Company=companies.name
+WHERE Date<2000;
+
+problem 16: SELECT Company From employees
+WHERE Role="Graphic Designer";
+
+
+
 
 
