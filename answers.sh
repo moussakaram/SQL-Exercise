@@ -7,4 +7,18 @@ Problem 5: INSERT INTO students (ID , name , Age, Gender , Points) VALUES( 7 ,"M
 Problem 6: SET Points = Points + 20 WHERE name = 'Basma';
 Problem 7: UPDATE students SET Points = Points  -20 WHERE name = 'Alex';
 
+######create table ######
+INSERT INTO graduates (ID, Name, Age, Gender, Points)
+SELECT ID, Name, Age, Gender, Points
+FROM students
+WHERE Name = 'Layal';
+
+UPDATE graduates
+Set Graduation = '08/09/2018'
+WHERE Name = 'Layal';
+
+DELETE FROM students
+WHERE Name = 'Layal';
+##############################################
+
 
