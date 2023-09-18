@@ -1,3 +1,7 @@
+draw sql screenshot available in the folder 
+url: https://drawsql.app/teams/mk-team-2/diagrams/book
+
+
 Problem 0: SELECT * FROM students;
 Problem 1: SELECT name FROM students;
 Problem 2: SELECT * FROM students WHERE Age>30;
