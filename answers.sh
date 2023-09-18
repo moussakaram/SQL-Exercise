@@ -37,6 +37,28 @@ WHERE Date<2000;
 problem 16: SELECT Company From employees
 WHERE Role="Graphic Designer";
 
+######################Count & Filter########################
+problem 18: SELECT name, max(points)
+FROM students;
+
+
+problem 19: SELECT AVG(Points)
+FROM students;
+
+
+problem 20: SELECT COUNT(Points)
+FROM students
+WHERE Points=500 ;
+
+
+problem 21: SELECT name FROM students
+WHERE name LIKE '%s%';
+
+
+
+problem 22: SELECT * FROM students
+ORDER BY Points DESC;
+
 
 
 
